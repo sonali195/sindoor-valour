@@ -1,0 +1,93 @@
+/*
+ * Right-to-left overrides.
+ *
+ * Only the direction-sensitive declarations from style.css are repeated here.
+ * Loaded by functions.php when is_rtl() is true, after the main stylesheet.
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+th,
+td {
+	text-align: right;
+}
+
+blockquote {
+	padding: 0.2rem 1.25rem 0.2rem 0;
+	border-right: 4px solid var(--sv-sindoor);
+	border-left: 0;
+}
+
+.screen-reader-text:focus {
+	right: 0.5rem;
+	left: auto;
+}
+
+.main-navigation ul ul {
+	right: 0;
+	left: auto;
+}
+
+.main-navigation ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+.sv-submenu-toggle {
+	right: auto;
+	left: 0;
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-ancestor > a {
+	box-shadow: inset 0 -3px 0 var(--sv-sindoor);
+}
+
+.sv-hero::before {
+	background: linear-gradient(270deg, rgba(20, 28, 16, 0.92) 0%, rgba(20, 28, 16, 0.72) 55%, rgba(20, 28, 16, 0.45) 100%);
+}
+
+.sv-notice {
+	border-right: 4px solid var(--sv-sindoor);
+	border-left: 0;
+}
+
+.comment-list .children {
+	margin: 0 1.5rem 0 0;
+}
+
+.alignleft {
+	float: right;
+	margin: 0.35rem 0 1rem 1.5rem;
+}
+
+.alignright {
+	float: left;
+	margin: 0.35rem 1.5rem 1rem 0;
+}
+
+.entry-content a[href^="http"]::after {
+	direction: ltr;
+	unicode-bidi: embed;
+}
+
+@media (max-width: 61.9375em) {
+
+	.main-navigation ul ul a {
+		padding-right: 1.75rem;
+		padding-left: 0.85rem;
+	}
+}
+
+@media (max-width: 47.9375em) {
+
+	.alignleft,
+	.alignright {
+		float: none;
+		margin: 0 0 1.4rem;
+	}
+}

@@ -1,0 +1,1156 @@
+# Copyright (C) 2026 Sonali Prajapati
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sindoor Valour 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sindoor-valour\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-24T10:23:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: sindoor-valour\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/block-patterns.php:31
+msgid "Sindoor Valour"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A dignified, accessible WordPress theme for veterans welfare trusts, regimental benevolent funds and armed-forces family support NGOs. Built around the work such organisations actually do: welfare programmes, beneficiary stories, donation appeals, commemorations and notices. Ships with a sectioned front page, a donation call-to-action template, full keyboard and screen-reader support, and a print stylesheet for receipts and notices. Independent and unofficial; it carries no government or military insignia."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Sonali Prajapati"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://profiles.wordpress.org/sonaliprajapati/"
+msgstr ""
+
+#: 404.php:19
+msgid "That page could not be found"
+msgstr ""
+
+#: 404.php:20
+msgid "The page may have been moved, or the address may have a typo in it."
+msgstr ""
+
+#: 404.php:29
+msgid "Try a search, or start again from the home page."
+msgstr ""
+
+#: 404.php:35
+msgid "Go to the home page"
+msgstr ""
+
+#: archive.php:59
+#: index.php:46
+#: search.php:58
+msgid "Previous"
+msgstr ""
+
+#: archive.php:60
+#: index.php:47
+#: search.php:59
+msgid "Next"
+msgstr ""
+
+#: archive.php:61
+#: index.php:48
+msgid "Posts navigation"
+msgstr ""
+
+#: comments.php:33
+msgid "One message"
+msgstr ""
+
+#. translators: %s: Comment count number.
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%s message"
+msgid_plural "%s messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Messages are closed."
+msgstr ""
+
+#: comments.php:71
+#: inc/template-tags.php:104
+msgid "Leave a message"
+msgstr ""
+
+#. translators: %s: Author of the comment being replied to.
+#: comments.php:73
+#, php-format
+msgid "Reply to %s"
+msgstr ""
+
+#: comments.php:74
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:75
+msgid "Post message"
+msgstr ""
+
+#: comments.php:78
+msgid "Message"
+msgstr ""
+
+#. translators: 1: Current year, 2: Site name.
+#: footer.php:41
+#, php-format
+msgid "&copy; %1$s %2$s. All rights reserved."
+msgstr ""
+
+#: footer.php:64
+msgid "Footer menu"
+msgstr ""
+
+#: front-page.php:39
+#: template-parts/content/content-page.php:23
+#: template-parts/content/content-single.php:29
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:98
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:99
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:100
+msgid "Social Links Menu"
+msgstr ""
+
+#: functions.php:164
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:166
+msgid "Shown beside posts, archives and the blog page."
+msgstr ""
+
+#. translators: %d: Footer widget column number.
+#: functions.php:181
+#, php-format
+msgid "Footer Column %d"
+msgstr ""
+
+#: functions.php:185
+msgid "Widgets placed here appear in the site footer."
+msgstr ""
+
+#: functions.php:236
+#: inc/template-functions.php:143
+msgid "Open sub-menu"
+msgstr ""
+
+#: functions.php:237
+msgid "Close sub-menu"
+msgstr ""
+
+#: functions.php:262
+msgid "Olive"
+msgstr ""
+
+#: functions.php:267
+msgid "Sindoor"
+msgstr ""
+
+#: functions.php:272
+msgid "Sand"
+msgstr ""
+
+#: functions.php:277
+msgid "Ink"
+msgstr ""
+
+#: functions.php:282
+msgid "Paper"
+msgstr ""
+
+#: functions.php:293
+msgid "Small"
+msgstr ""
+
+#: functions.php:298
+msgid "Normal"
+msgstr ""
+
+#: functions.php:303
+msgid "Large"
+msgstr ""
+
+#: functions.php:308
+msgid "Extra Large"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#. translators: %s: Helpline phone number.
+#: header.php:48
+#, php-format
+msgid "Helpline: %s"
+msgstr ""
+
+#: header.php:76
+msgid "Social links menu"
+msgstr ""
+
+#: header.php:116
+msgid "Menu"
+msgstr ""
+
+#: header.php:122
+msgid "Primary menu"
+msgstr ""
+
+#: inc/admin-setup.php:25
+#: inc/admin-setup.php:47
+msgid "Sindoor Valour Setup"
+msgstr ""
+
+#: inc/admin-setup.php:26
+msgid "Theme Setup"
+msgstr ""
+
+#: inc/admin-setup.php:43
+msgid "You do not have permission to change theme settings."
+msgstr ""
+
+#: inc/admin-setup.php:49
+msgid "A short checklist for getting the front page looking the way it does in the screenshot."
+msgstr ""
+
+#. translators: %s: Link to the Customizer.
+#: inc/admin-setup.php:57
+#, php-format
+msgid "This site is still empty, so WordPress will offer the theme&#8217;s starter content as a live preview in <a href=\"%s\">the Customizer</a>. Nothing is saved until you press Publish."
+msgstr ""
+
+#: inc/admin-setup.php:65
+msgid "Setting the site up"
+msgstr ""
+
+#. translators: %s: Link to the Reading settings screen.
+#: inc/admin-setup.php:72
+#, php-format
+msgid "Under <a href=\"%s\">Settings &rarr; Reading</a>, set the homepage to a static page. The sectioned front page only applies to a static front page."
+msgstr ""
+
+#. translators: %s: Link to the Customizer.
+#: inc/admin-setup.php:81
+#, php-format
+msgid "Open <a href=\"%s\">Appearance &rarr; Customize</a> and fill in the Sindoor Valour Options panel."
+msgstr ""
+
+#. translators: %s: Link to the Menus screen.
+#: inc/admin-setup.php:90
+#, php-format
+msgid "Build your menus under <a href=\"%s\">Appearance &rarr; Menus</a> and assign them to Primary, Footer and Social Links."
+msgstr ""
+
+#. translators: %s: Link to the Widgets screen.
+#: inc/admin-setup.php:99
+#, php-format
+msgid "Add widgets to the Main Sidebar and the three footer columns under <a href=\"%s\">Appearance &rarr; Widgets</a>."
+msgstr ""
+
+#: inc/admin-setup.php:150
+msgid "Sindoor Valour is active."
+msgstr ""
+
+#. translators: %s: Link to the theme setup screen.
+#: inc/admin-setup.php:154
+#, php-format
+msgid "The front page shows its sections once there is something to put in them — <a href=\"%s\">open Theme Setup</a> for a short checklist."
+msgstr ""
+
+#: inc/admin-setup.php:159
+msgid "Dismiss permanently"
+msgstr ""
+
+#: inc/block-patterns.php:32
+msgid "Layouts for welfare trusts: appeals, programmes, notices and office details."
+msgstr ""
+
+#: inc/block-patterns.php:66
+msgid "Appeal with button"
+msgstr ""
+
+#: inc/block-patterns.php:67
+msgctxt "Block pattern description"
+msgid "A short appeal on the sindoor background, with a heading, one paragraph and a button."
+msgstr ""
+
+#: inc/block-patterns.php:73
+msgid "Three programme cards"
+msgstr ""
+
+#: inc/block-patterns.php:74
+msgctxt "Block pattern description"
+msgid "Three columns, each with a heading and a short description of one welfare programme."
+msgstr ""
+
+#: inc/block-patterns.php:80
+msgid "Documents to bring"
+msgstr ""
+
+#: inc/block-patterns.php:81
+msgctxt "Block pattern description"
+msgid "A highlighted notice listing the paperwork a family should carry to the office."
+msgstr ""
+
+#: inc/block-patterns.php:87
+msgid "Office details and hours"
+msgstr ""
+
+#: inc/block-patterns.php:88
+msgctxt "Block pattern description"
+msgid "Two columns: the office address on one side, opening hours and the helpline on the other."
+msgstr ""
+
+#: inc/block-patterns.php:104
+#: inc/customizer.php:56
+msgid "Every contribution reaches a family"
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "Regular giving is what keeps a scholarship running for a full academic year. Replace this text with the appeal you are running now."
+msgstr ""
+
+#: inc/block-patterns.php:106
+#: inc/customizer.php:26
+msgid "Donate"
+msgstr ""
+
+#: inc/block-patterns.php:139
+#: inc/starter-content.php:178
+msgid "Education"
+msgstr ""
+
+#: inc/block-patterns.php:140
+msgid "School and college fees, books and uniforms, paid directly to the institution."
+msgstr ""
+
+#: inc/block-patterns.php:143
+msgid "Medical aid"
+msgstr ""
+
+#: inc/block-patterns.php:144
+msgid "District camps, hospital referrals and help with costs outside the family entitlement."
+msgstr ""
+
+#: inc/block-patterns.php:147
+#: inc/starter-content.php:190
+msgid "Livelihood"
+msgstr ""
+
+#: inc/block-patterns.php:148
+msgid "Trade certification and placement support for veterans entering civilian work."
+msgstr ""
+
+#: inc/block-patterns.php:187
+msgid "What to bring"
+msgstr ""
+
+#: inc/block-patterns.php:189
+msgid "Discharge book or service identity card."
+msgstr ""
+
+#: inc/block-patterns.php:190
+msgid "Pension payment order, where a pension is drawn."
+msgstr ""
+
+#: inc/block-patterns.php:191
+msgid "The student&#8217;s previous mark sheet, for a scholarship application."
+msgstr ""
+
+#: inc/block-patterns.php:192
+msgid "The hospital estimate, for medical assistance."
+msgstr ""
+
+#: inc/block-patterns.php:230
+msgid "Office"
+msgstr ""
+
+#: inc/block-patterns.php:231
+msgid "Replace with your street address, town and PIN code."
+msgstr ""
+
+#: inc/block-patterns.php:232
+msgid "Hours and helpline"
+msgstr ""
+
+#: inc/block-patterns.php:233
+msgid "Monday to Saturday, 10 am to 4 pm. Helpline 1800 000 0000."
+msgstr ""
+
+#: inc/block-styles.php:31
+#: inc/block-styles.php:36
+msgid "Notice"
+msgstr ""
+
+#: inc/block-styles.php:41
+msgid "Checklist"
+msgstr ""
+
+#: inc/block-styles.php:46
+msgid "Testimony"
+msgstr ""
+
+#: inc/block-styles.php:51
+msgid "Framed"
+msgstr ""
+
+#: inc/block-styles.php:56
+msgid "Sindoor rule"
+msgstr ""
+
+#: inc/block-styles.php:61
+msgid "Schedule"
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Veterans Welfare"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Standing by those who stood for us"
+msgstr ""
+
+#: inc/customizer.php:31
+msgid "Support for veterans, war widows and the families of serving personnel — education, medical aid, skilling and pension assistance."
+msgstr ""
+
+#: inc/customizer.php:32
+msgid "Support a family"
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "Our programmes"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Families supported"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Children in education"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Medical camps held"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Districts reached"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "What we do"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Long-term welfare, delivered close to the families who need it."
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Upcoming events"
+msgstr ""
+
+#: inc/customizer.php:53
+#: index.php:26
+msgid "Latest updates"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Regular giving is what keeps a scholarship running for a full academic year."
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "Donate now"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Sindoor Valour Options"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Header details, the front-page sections and the footer credit."
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "The contact strip above the logo, and the header button."
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Helpline number"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Contact email"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Short notice"
+msgstr ""
+
+#: inc/customizer.php:146
+msgid "Header button label"
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Header button link"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Front Page: Hero"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "The banner at the top of the front page. Its background is the header image set under Header Media."
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Show the hero"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Eyebrow"
+msgstr ""
+
+#: inc/customizer.php:162
+#: inc/customizer.php:242
+msgid "Heading"
+msgstr ""
+
+#: inc/customizer.php:163
+#: inc/customizer.php:243
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Primary button label"
+msgstr ""
+
+#: inc/customizer.php:165
+msgid "Primary button link"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Secondary button label"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid "Secondary button link"
+msgstr ""
+
+#: inc/customizer.php:174
+msgid "Front Page: Impact Figures"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Leave a figure empty to hide that tile. Publish only numbers the trust can account for."
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Show impact figures"
+msgstr ""
+
+#. translators: %d: Impact tile number.
+#: inc/customizer.php:188
+#, php-format
+msgid "Figure %d"
+msgstr ""
+
+#. translators: %d: Impact tile number.
+#: inc/customizer.php:199
+#, php-format
+msgid "Label %d"
+msgstr ""
+
+#: inc/customizer.php:212
+msgid "Front Page: Sections"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Show programmes"
+msgstr ""
+
+#: inc/customizer.php:218
+msgid "Programmes heading"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "Programmes intro"
+msgstr ""
+
+#: inc/customizer.php:220
+msgid "Programmes to show"
+msgstr ""
+
+#: inc/customizer.php:222
+msgid "Show events"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Events heading"
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "Events to show"
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Show latest updates"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Updates heading"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Updates to show"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Donation Call to Action"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Shown near the bottom of the front page and on the donation template."
+msgstr ""
+
+#: inc/customizer.php:241
+msgid "Show the call to action"
+msgstr ""
+
+#: inc/customizer.php:244
+msgid "Button label"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Button link"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:260
+msgid "Footer credit line"
+msgstr ""
+
+#: inc/starter-content.php:41
+msgid "Who we are"
+msgstr ""
+
+#: inc/starter-content.php:42
+msgid "We are a registered charitable trust working with veterans, war widows and the families of serving personnel. Our work is unglamorous and long-term: school fees paid on time, a hospital bill settled, a pension file followed up until it moves, a trade certificate that leads to a job."
+msgstr ""
+
+#: inc/starter-content.php:43
+msgid "Everything we do is funded by regular donors and audited annually. Replace this text with your own introduction, and the figures above with numbers your trust can account for."
+msgstr ""
+
+#: inc/starter-content.php:62
+msgid "This page is where you set out what the trust exists to do, who it serves and who runs it. Keep it concrete: the districts you cover, the year you were registered, the registration number, and the names of the trustees."
+msgstr ""
+
+#: inc/starter-content.php:63
+msgid "How we work"
+msgstr ""
+
+#: inc/starter-content.php:64
+msgid "Applications come through the district sainik welfare office or directly from the family. Every case is verified against service records before any assistance is released, and assistance is paid to the institution or hospital rather than in cash."
+msgstr ""
+
+#: inc/starter-content.php:65
+msgid "Governance"
+msgstr ""
+
+#: inc/starter-content.php:66
+msgid "List your trustees, your auditor, and where the annual report and accounts can be read. Donors ask, and a trust that answers before being asked raises more."
+msgstr ""
+
+#: inc/starter-content.php:81
+msgid "Replace this page with your own giving instructions. The theme deliberately does not collect payments: put your payment gateway shortcode, your UPI handle or your bank details here, whichever your trust actually uses."
+msgstr ""
+
+#: inc/starter-content.php:82
+msgid "What a contribution covers"
+msgstr ""
+
+#: inc/starter-content.php:86
+msgid "One school year for a child, including fees, books and uniform."
+msgstr ""
+
+#: inc/starter-content.php:87
+msgid "A district medical camp, including medicines and a visiting physician."
+msgstr ""
+
+#: inc/starter-content.php:88
+msgid "A trade certification course for a veteran entering civilian work."
+msgstr ""
+
+#: inc/starter-content.php:91
+msgid "Bank transfer"
+msgstr ""
+
+#: inc/starter-content.php:92
+msgid "Account name, account number, IFSC and branch go here. Add your 80G registration details if your trust holds one, and say plainly what a donor will receive as a receipt."
+msgstr ""
+
+#: inc/starter-content.php:107
+msgid "Office address, helpline number, email and the hours the office is actually open. If families have to travel to reach you, say which day of the week the welfare officer sits in."
+msgstr ""
+
+#: inc/starter-content.php:108
+msgid "Applying for assistance"
+msgstr ""
+
+#: inc/starter-content.php:109
+msgid "List the documents a family should bring: discharge book, pension payment order, the child's previous mark sheet, and the hospital estimate where the application is for medical aid."
+msgstr ""
+
+#: inc/starter-content.php:175
+msgid "Scholarships for children"
+msgstr ""
+
+#: inc/starter-content.php:176
+msgid "Full-year school and college fees, books and uniforms for the children of veterans and war widows, paid directly to the institution."
+msgstr ""
+
+#: inc/starter-content.php:177
+msgid "The scholarship covers tuition, examination fees, books and one set of uniform for a full academic year. Payment is made to the school or college, never in cash, and is renewed on the strength of the previous year's results. Applications open in April and close at the end of June."
+msgstr ""
+
+#: inc/starter-content.php:181
+msgid "Medical assistance"
+msgstr ""
+
+#: inc/starter-content.php:182
+msgid "Quarterly medical camps, hospital referrals and reimbursement of treatment costs that fall outside the family's entitlement."
+msgstr ""
+
+#: inc/starter-content.php:183
+msgid "A visiting physician holds a camp in each district every quarter, with basic diagnostics and a month's medicines. Cases that need hospital care are referred to a panel hospital, and the trust settles the portion of the bill that is not covered by the family's existing entitlement."
+msgstr ""
+
+#: inc/starter-content.php:184
+msgid "Health"
+msgstr ""
+
+#: inc/starter-content.php:187
+msgid "Skilling and placement"
+msgstr ""
+
+#: inc/starter-content.php:188
+msgid "Trade certification, interview preparation and placement support for veterans moving into civilian employment."
+msgstr ""
+
+#: inc/starter-content.php:189
+msgid "Veterans leaving service in their forties have two decades of working life ahead of them and a skill set that civilian employers often fail to read. The programme pays for a recognised trade certificate, rewrites the service record as a civilian CV, and introduces the candidate to employers who have hired from the programme before."
+msgstr ""
+
+#: inc/starter-content.php:193
+msgid "Pension and records assistance"
+msgstr ""
+
+#: inc/starter-content.php:194
+msgid "Help with pension files, corrections to service records and the paperwork a family faces after a bereavement."
+msgstr ""
+
+#: inc/starter-content.php:195
+msgid "A stalled pension file is the most common problem a widow brings to the office, and it is almost always a paperwork problem rather than an entitlement one. The trust keeps a welfare officer who knows the forms, follows the file until it moves, and tells the family plainly where it has reached."
+msgstr ""
+
+#: inc/starter-content.php:196
+msgid "Entitlements"
+msgstr ""
+
+#: inc/starter-content.php:201
+msgid "District medical camp"
+msgstr ""
+
+#: inc/starter-content.php:202
+msgid "Open to all registered beneficiaries. Carry your discharge book and canteen card."
+msgstr ""
+
+#: inc/starter-content.php:203
+msgid "General physician, eye screening and blood sugar testing, with one month of medicines issued on the spot. Registration opens at 8:30 am and the last token is issued at 1 pm."
+msgstr ""
+
+#: inc/starter-content.php:205
+msgid "District Sainik Welfare Office"
+msgstr ""
+
+#: inc/starter-content.php:208
+msgid "Scholarship application help desk"
+msgstr ""
+
+#: inc/starter-content.php:209
+msgid "Bring last year's mark sheet and the school fee structure. Forms are filled in and submitted on the spot."
+msgstr ""
+
+#: inc/starter-content.php:210
+msgid "A welfare officer will fill in the form with you, check the documents against your service record, and give you an acknowledgement with the file number before you leave."
+msgstr ""
+
+#: inc/starter-content.php:212
+msgid "Trust Office, Ground Floor"
+msgstr ""
+
+#: inc/starter-content.php:215
+msgid "Annual commemoration and family day"
+msgstr ""
+
+#: inc/starter-content.php:216
+msgid "The yearly gathering of beneficiary families, with the annual report read out and accounts placed on the table."
+msgstr ""
+
+#: inc/starter-content.php:217
+msgid "The trustees present the year's accounts, the scholarship results are read out, and families who have moved into employment through the skilling programme speak about it themselves. Lunch is provided."
+msgstr ""
+
+#: inc/starter-content.php:219
+msgid "Community Hall"
+msgstr ""
+
+#: inc/starter-content.php:224
+msgid "Scholarship applications are open"
+msgstr ""
+
+#: inc/starter-content.php:225
+msgid "Applications for the coming academic year are open until the end of June. Forms are available at the district office and at the help desk."
+msgstr ""
+
+#: inc/starter-content.php:226
+msgid "Applications for the coming academic year are open. Families already on the register do not need to apply again; a renewal form will be sent to the address we hold. New applicants should bring the discharge book, the pension payment order and the child's previous mark sheet to the district office."
+msgstr ""
+
+#: inc/starter-content.php:229
+msgid "Medical camp reaches its four hundredth family"
+msgstr ""
+
+#: inc/starter-content.php:230
+msgid "The quarterly camp crossed four hundred families this month, with eye screening added to the standard set of tests."
+msgstr ""
+
+#: inc/starter-content.php:231
+msgid "The quarterly camp crossed four hundred families this month. Eye screening has been added to the standard set of tests after last year's camps found untreated cataracts in a third of the veterans over seventy who attended."
+msgstr ""
+
+#: inc/starter-content.php:234
+msgid "Annual report and accounts published"
+msgstr ""
+
+#: inc/starter-content.php:235
+msgid "The audited accounts and the trustees' report for the year are now available to read and download."
+msgstr ""
+
+#: inc/starter-content.php:236
+msgid "The audited accounts and the trustees' report for the year are now published. They set out what was received, what was spent on each programme, and what the trust holds in reserve. Donors who would like a printed copy can ask at the office."
+msgstr ""
+
+#: inc/starter-content.php:255
+msgctxt "Theme starter content"
+msgid "Home"
+msgstr ""
+
+#: inc/starter-content.php:261
+#: inc/starter-content.php:448
+msgctxt "Theme starter content"
+msgid "About the trust"
+msgstr ""
+
+#: inc/starter-content.php:267
+msgctxt "Theme starter content"
+msgid "Donate"
+msgstr ""
+
+#: inc/starter-content.php:275
+msgctxt "Theme starter content"
+msgid "Contact"
+msgstr ""
+
+#: inc/starter-content.php:281
+msgctxt "Theme starter content"
+msgid "Updates"
+msgstr ""
+
+#: inc/starter-content.php:350
+msgctxt "Theme starter content"
+msgid "Programmes"
+msgstr ""
+
+#: inc/starter-content.php:355
+msgctxt "Theme starter content"
+msgid "Events"
+msgstr ""
+
+#: inc/starter-content.php:393
+msgctxt "Theme starter content"
+msgid "Welfare for veterans and their families"
+msgstr ""
+
+#: inc/starter-content.php:397
+msgctxt "Theme starter content"
+msgid "1800 000 0000"
+msgstr ""
+
+#: inc/starter-content.php:398
+msgctxt "Theme starter content"
+msgid "welfare@example.org"
+msgstr ""
+
+#: inc/starter-content.php:399
+msgctxt "Theme starter content"
+msgid "Office open Mon–Sat, 10 am to 4 pm"
+msgstr ""
+
+#: inc/starter-content.php:400
+msgctxt "Theme starter content"
+msgid "1,240"
+msgstr ""
+
+#: inc/starter-content.php:401
+msgctxt "Theme starter content"
+msgid "380"
+msgstr ""
+
+#: inc/starter-content.php:402
+msgctxt "Theme starter content"
+msgid "64"
+msgstr ""
+
+#: inc/starter-content.php:403
+msgctxt "Theme starter content"
+msgid "19"
+msgstr ""
+
+#: inc/starter-content.php:404
+msgctxt "Theme starter content"
+msgid "A registered charitable trust. Replace this line with your registration number."
+msgstr ""
+
+#: inc/starter-content.php:409
+msgctxt "Theme starter content"
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/starter-content.php:413
+msgctxt "Theme starter content"
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/starter-content.php:449
+msgctxt "Theme starter content"
+msgid "Education, medical aid, skilling and entitlements assistance for veterans, war widows and the families of serving personnel."
+msgstr ""
+
+#: inc/starter-content.php:458
+msgctxt "Theme starter content"
+msgid "Office"
+msgstr ""
+
+#: inc/starter-content.php:459
+msgctxt "Theme starter content"
+msgid "Replace this with your address, helpline number and office hours."
+msgstr ""
+
+#: inc/template-functions.php:166
+msgid "Continue reading"
+msgstr ""
+
+#. translators: %s: Post date.
+#: inc/template-tags.php:41
+#, php-format
+msgid "Published %s"
+msgstr ""
+
+#: inc/template-tags.php:60
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:77
+#: inc/template-tags.php:87
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:82
+msgid "Filed under:"
+msgstr ""
+
+#: inc/template-tags.php:92
+msgid "Tagged:"
+msgstr ""
+
+#: inc/template-tags.php:105
+msgid "1 message"
+msgstr ""
+
+#: inc/template-tags.php:106
+msgid "% messages"
+msgstr ""
+
+#: inc/template-tags.php:159
+msgid "Read more"
+msgstr ""
+
+#: inc/template-tags.php:188
+msgid "Search results"
+msgstr ""
+
+#: inc/template-tags.php:190
+msgid "Page not found"
+msgstr ""
+
+#: inc/template-tags.php:199
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/template-tags.php:200
+msgid "Home"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Donation Page"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr ""
+
+#. translators: %s: Search query.
+#: search.php:23
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#. translators: %s: Number of results found.
+#: search.php:35
+#, php-format
+msgid "%s result found."
+msgid_plural "%s results found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:60
+msgid "Search results navigation"
+msgstr ""
+
+#: searchform.php:18
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:26
+msgctxt "placeholder"
+msgid "Search this site&hellip;"
+msgstr ""
+
+#: searchform.php:30
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Sidebar"
+msgstr ""
+
+#: single-sv-event.php:45
+msgid "Previous event:"
+msgstr ""
+
+#: single-sv-event.php:46
+msgid "Next event:"
+msgstr ""
+
+#: single-sv-programme.php:40
+msgid "Previous programme:"
+msgstr ""
+
+#: single-sv-programme.php:41
+msgid "Next programme:"
+msgstr ""
+
+#: single.php:40
+msgid "Previous:"
+msgstr ""
+
+#: single.php:41
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content/content-none.php:16
+msgid "Nothing found"
+msgstr ""
+
+#. translators: %s: Link to the new-post screen.
+#: template-parts/content/content-none.php:26
+#, php-format
+msgid "Ready to publish the first update? <a href=\"%s\">Write one now</a>."
+msgstr ""
+
+#: template-parts/content/content-none.php:34
+msgid "Nothing matched those words. Try again with a different term."
+msgstr ""
+
+#: template-parts/content/content-none.php:39
+msgid "There is nothing here yet. A search may help."
+msgstr ""
+
+#. translators: %s: Post title.
+#: template-parts/content/content-page.php:36
+#: template-parts/content/content-single.php:43
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: Post title.
+#: template-parts/content/content-single.php:22
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: template-parts/home/events.php:42
+msgid "Calendar"
+msgstr ""
+
+#: template-parts/home/events.php:84
+msgid "All events"
+msgstr ""
+
+#: template-parts/home/news.php:35
+msgid "Newsroom"
+msgstr ""
+
+#: template-parts/home/programmes.php:41
+msgid "Programmes"
+msgstr ""
+
+#: template-parts/home/programmes.php:63
+msgid "All programmes"
+msgstr ""

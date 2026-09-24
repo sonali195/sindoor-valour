@@ -1,0 +1,103 @@
+/*
+ * Editor styles: makes the block editor resemble the front end.
+ *
+ * Only the typography and colour decisions that change how content reads are
+ * repeated here. Layout chrome deliberately is not.
+ */
+
+.editor-styles-wrapper {
+	background-color: #ffffff;
+	color: #3c4239;
+	font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Noto Sans Devanagari", sans-serif;
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+	color: #1b1f18;
+	font-family: Georgia, "Times New Roman", "Noto Serif", serif;
+	font-weight: 700;
+	line-height: 1.25;
+}
+
+.editor-styles-wrapper a {
+	color: #9c2a1f;
+}
+
+.editor-styles-wrapper blockquote {
+	padding: 0.2rem 0 0.2rem 1.25rem;
+	border-left: 4px solid #9c2a1f;
+	color: #1b1f18;
+	font-family: Georgia, "Times New Roman", "Noto Serif", serif;
+	font-style: italic;
+}
+
+.editor-styles-wrapper .wp-block-button__link {
+	border-radius: 4px;
+	font-weight: 700;
+}
+
+.editor-styles-wrapper table th,
+.editor-styles-wrapper table td {
+	border: 1px solid #ddd9cc;
+}
+
+/* Block style variations, mirrored from style.css. */
+
+.editor-styles-wrapper .is-style-sv-notice {
+	padding: 1rem 1.25rem;
+	background-color: #fbeeec;
+	border-left: 4px solid #9c2a1f;
+	border-radius: 4px;
+}
+
+.editor-styles-wrapper .is-style-sv-checklist {
+	list-style: none;
+	padding-left: 0;
+}
+
+.editor-styles-wrapper .is-style-sv-checklist li {
+	position: relative;
+	padding-left: 1.6rem;
+}
+
+.editor-styles-wrapper .is-style-sv-checklist li::before {
+	content: "\2713";
+	position: absolute;
+	left: 0;
+	color: #33422a;
+	font-weight: 700;
+}
+
+.editor-styles-wrapper .is-style-sv-testimony {
+	padding: 1.25rem 1.5rem;
+	background-color: #faf8f2;
+	border-left: 4px solid #33422a;
+	font-style: normal;
+}
+
+.editor-styles-wrapper .is-style-sv-framed img {
+	padding: 6px;
+	background-color: #fff;
+	border: 1px solid #ddd9cc;
+	border-radius: 4px;
+}
+
+.editor-styles-wrapper .is-style-sv-rule {
+	max-width: 5rem;
+	height: 3px;
+	background-color: #9c2a1f;
+	border: 0;
+	opacity: 1;
+}
+
+.editor-styles-wrapper .is-style-sv-schedule th {
+	background-color: #33422a;
+	color: #fff;
+	border-color: #33422a;
+}
