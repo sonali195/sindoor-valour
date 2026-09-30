@@ -18,7 +18,9 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header();
-
+?>
+<main id="primary" class="site-main">
+<?php
 get_template_part( 'template-parts/home/hero' );
 get_template_part( 'template-parts/home/impact' );
 
@@ -53,5 +55,7 @@ get_template_part( 'template-parts/home/programmes' );
 get_template_part( 'template-parts/home/events' );
 get_template_part( 'template-parts/home/cta' );
 get_template_part( 'template-parts/home/news' );
-
+?>
+</main><!-- #primary -->
+<?php
 get_footer();

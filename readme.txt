@@ -4,7 +4,7 @@ Contributors: sonaliprajapati
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.2.1
+Stable tag: 1.2.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, news, education, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
@@ -123,6 +123,11 @@ design. The sidebar appears on posts, archives, search results and the blog page
 when the Main Sidebar widget area has something in it.
 
 == Changelog ==
+
+= 1.2.3 =
+* The skip link now jumps straight to the main content area instead of the page wrapper.
+* The front page now has a proper main landmark, so screen-reader users can jump to it.
+* Version numbers in readme.txt and the translation template now match style.css.
 
 = 1.2.1 =
 * Welcome notice now stays dismissed after a refresh (saved per user), with a "Dismiss permanently" link as a no-JavaScript fallback.
