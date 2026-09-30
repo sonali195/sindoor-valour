@@ -125,7 +125,6 @@ when the Main Sidebar widget area has something in it.
 == Changelog ==
 
 = 1.2.3 =
-* The skip link now jumps straight to the main content area instead of the page wrapper.
 * The front page now has a proper main landmark, so screen-reader users can jump to it.
 * Version numbers in readme.txt and the translation template now match style.css.
 
